@@ -1,0 +1,14 @@
+# train and val data as 1. directory: path/images/, 2. file: path/images.txt, or 3 list: [path1/images/, path2/images/]
+
+train: /content/drive/MyDrive/yolov8/data_signs/train/images
+val: /content/drive/MyDrive/yolov8/data_signs/valid/images
+test: /content/drive/MyDrive/yolov8/data_signs/test/images
+
+#number of classes
+
+nc: 8
+
+#class_names
+
+names: ['max_speed_30km-h', 'max_speed_50km-h', 'no_entry', 'straight_or_left_only', 'straight_or_righ_only', 'straight_or_right_only', 'turn_left_ahead', 'turn_right_ahead']
+
